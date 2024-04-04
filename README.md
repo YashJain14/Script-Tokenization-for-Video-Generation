@@ -10,20 +10,19 @@ By combining natural language processing (NLP) techniques to parse the script in
 
 - Python 3.x
 - SpaCy
-- Other dependencies as specified in `requirements.txt`
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/script-to-video-generation.git
+    git clone https://github.com/YashJain14/Script-Tokenization-for-Video-Generation
     ```
 
 2. Install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install spacy
     ```
 
 3. Download SpaCy English model:
@@ -34,12 +33,15 @@ By combining natural language processing (NLP) techniques to parse the script in
 
 ## Example
 
-For example, if your script file `script.txt` contains:
-
 ```
-The sun was setting behind the tall trees.
-Birds chirped merrily as they returned to their nests.
-A gentle breeze rustled the leaves.
+The sun was setting behind the tall trees, casting long shadows across the forest floor. 
+Birds chirped merrily as they returned to their nests, preparing for the night ahead. 
+A gentle breeze rustled the leaves, carrying with it the scent of pine and earth. 
+In the distance, a river meandered through the landscape, its waters shimmering in the fading light. 
+The tranquility of the forest was broken by the occasional rustle of small animals moving through the underbrush. 
+As dusk descended, the sky turned into a canvas of vibrant colors, painting the clouds with shades of pink, orange, and purple. 
+Fireflies began to emerge, their soft glow adding to the enchanting atmosphere. 
+It was a scene straight out of a fairy tale, where magic lingered in every corner and time seemed to stand still.
 ```
 
 Running the script will produce prompts like:
